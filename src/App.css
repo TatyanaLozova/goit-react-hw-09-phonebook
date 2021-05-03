@@ -1,0 +1,16 @@
+body {
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url(https://s1.1zoom.ru/b5262/681/Maldives_Tropics_Sunrises_and_sunsets_Bungalow_544953_2560x1440.jpg);
+}
+
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+  width: 500px;
+}

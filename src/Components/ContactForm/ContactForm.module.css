@@ -1,0 +1,44 @@
+.form {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+
+  width: 100%;
+}
+
+.input {
+  margin-bottom: 15px;
+
+  border-color: rgb(140, 194, 238);
+  border-radius: 5px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.btnAdd {
+  background-color: rgb(140, 194, 238);
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  font-weight: 700;
+  border-color: rgb(140, 194, 238);
+  color: #ffff;
+}
+
+.btnAdd:hover {
+  background-color: rgb(241, 68, 68);
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}

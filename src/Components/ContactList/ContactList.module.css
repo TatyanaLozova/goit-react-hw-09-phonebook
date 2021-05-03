@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px;
+  box-shadow: 0 0 5px 2px rgb(0, 225, 255);
+  border-radius: 5px;
+  color: #ffff;
+}
+
+.btn {
+  font-weight: 700;
+  background-color: rgb(140, 194, 238);
+  border-radius: 5px;
+  border-color: rgb(140, 194, 238);
+  color: #ffff;
+}
+
+.btn:hover {
+  background-color: rgb(241, 68, 68);
+}
+
+.laoding {
+  color: rgb(156, 33, 59);
+}
