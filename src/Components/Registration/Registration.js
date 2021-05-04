@@ -11,12 +11,27 @@ export default function Registration() {
   const [password, setPassword] = useState("");
 
  const handleChange = ({ target: { name, value } }) => {
-    this.setState({ [name]: value });
+        switch (name) {
+      case "name":
+        setName(value);
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "password":
+        setPassword(value);
+        break;
+      default:
+        console.warn("Тип поля name - ${name} не обрабатывается");
   };
    
+     handleSubmit = e => {
+    e.preventDefault();
+    
+  };
    
   return (
-    <Form onSubmit={this.handleSubmit}>
+    <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicEmail">
          <Form.Label>UserName</Form.Label>
           <Form.Control

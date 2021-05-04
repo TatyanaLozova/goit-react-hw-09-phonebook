@@ -10,18 +10,32 @@ import s from './ContactForm.module.css'
     // записывает данные 
     const handleChange = e => {
         const { name, value } = e.target;
-       ({ [name]: value });
-    };
+     
+      switch (name) {
+        case "name":
+          setName(value);
+          break;
+        case "number":
+          setNumber(value);
+          break;
+        default:
+          console.error("Ooops");
+      }
+    }, []);
+     // отправляет данные 
+  handleSubmit = (ev) => {
+    ev.preventDefault();
+    
      
     return (
-      <form className={s.form} onSubmit={ }>
+      <form className={s.form} onSubmit={handleSubmit}>
         <label className={s.label}>
           Name
             <input className={s.input}
             type="text"
             name="name"
             value={name}
-            onChange={}
+            onChange={handleChange}
             placeholder="Name"
                        
           />
@@ -32,7 +46,7 @@ import s from './ContactForm.module.css'
             type="text"
             name="number"
             value={number}
-            onChange={}
+            onChange={handleChange}
             placeholder="000-00-00"
                       
           />
