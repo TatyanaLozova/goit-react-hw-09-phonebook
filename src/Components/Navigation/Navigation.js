@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import routes from '../../routes';
-import { connect } from 'react-redux'
+import { useSelector } from 'react-redux'
 import {authSelectors} from '../../redux/auth';
 
 const style = {
@@ -18,7 +18,9 @@ const style = {
 };
 
 
-const Navigation = ({ isAuthenticated }) => {
+
+export default function Navigation() {
+    const isLoggedIn = useSelector(authSelectors.getIsAuthenticated)
     return (
         <nav>
             <NavLink
@@ -29,7 +31,7 @@ const Navigation = ({ isAuthenticated }) => {
             >
                 HOME
                 </NavLink>
-            {isAuthenticated && (
+            {isLoggedIn && (
                 <NavLink
                     to={routes.contacts}
                     exact
@@ -42,8 +44,55 @@ const Navigation = ({ isAuthenticated }) => {
         </nav>
     );
 };
-const mapDispatchToProps = (state) => ({
-    isAuthenticated: authSelectors.getIsAuthenticated(state)
-})
 
-export default connect(mapDispatchToProps) (Navigation);
+
+
+// import React from 'react';
+// import { NavLink } from 'react-router-dom';
+// import routes from '../../routes';
+// import { connect } from 'react-redux'
+// import {authSelectors} from '../../redux/auth';
+
+// const style = {
+//   link: {
+//     display: "inline-block",
+//     textDecoration: "none",
+//     padding: 12,
+//     fontWeight: 900,
+//     color: "#ffffff",
+//   },
+//   activeLink: {
+//       color: "red",
+//   },
+// };
+
+
+// const Navigation = ({ isAuthenticated }) => {
+//     return (
+//         <nav>
+//             <NavLink
+//                 to={routes.home}
+//                 exact
+//                  style={style.link}
+//                 activeStyle={style.activeLink}
+//             >
+//                 HOME
+//                 </NavLink>
+//             {isAuthenticated && (
+//                 <NavLink
+//                     to={routes.contacts}
+//                     exact
+//                      style={style.link}
+//                 activeStyle={style.activeLink}
+//                 >
+//                    PHONEBOOK
+//                 </NavLink>
+//             )}
+//         </nav>
+//     );
+// };
+// const mapDispatchToProps = (state) => ({
+//     isAuthenticated: authSelectors.getIsAuthenticated(state)
+// })
+
+// export default connect(mapDispatchToProps) (Navigation);

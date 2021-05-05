@@ -1,14 +1,18 @@
-import React, { useState } from 'react'
-// import { contactsOperations, contactsSelectors } from "../../redux/contacts";
+import React, { useState,useCallback } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { contactsOperations, contactsSelectors } from "../../redux/contacts";
 import s from './ContactForm.module.css'
 
   
-  export default function ContactForm() {
+export default function ContactForm() {
+  const dispatch = useDispatch();
     const [name, setName] = useState("");
-    const [number, setNumber] = useState("");
+  const [number, setNumber] = useState("");
+  const contacts = useSelector(contactsSelectors.getAllContacts);
+
 
     // записывает данные 
-    const handleChange = e => {
+    const handleChange = useCallback((e) => {
         const { name, value } = e.target;
      
       switch (name) {
@@ -19,13 +23,34 @@ import s from './ContactForm.module.css'
           setNumber(value);
           break;
         default:
-          console.error("Ooops");
+          console.warn(`Тип поля name - ${name} не обрабатывается`);
       }
-    };
+    }, []);
      // отправляет данные 
-    const handleSubmit = (ev) => {
+    const handleSubmit = useCallback(
+    (ev) => {
       ev.preventDefault();
-    };
+
+      const uniqueContact = contacts.find(
+        (item) => item.name.toLowerCase() === name.toLowerCase()
+      );
+      if (uniqueContact) {
+        alert(`${name} уже есть в списке ваших контактов`);
+        return;
+      }
+
+      dispatch(contactsOperations.addContact({ name, number }));
+      resetForm();
+    },
+    [dispatch, name, number],
+  );
+
+  // очищает форму после отправки
+  const resetForm = () => {
+    setName("");
+    setNumber("");
+  };
+  
      
     return (
       <form className={s.form} onSubmit={handleSubmit}>

@@ -5,6 +5,11 @@ import { authOperations } from '../../redux/auth';
 
 // useState аналог handleChange и handleSubmit
 
+  const styles = {
+    form: {
+      width: "200",
+    }
+  };
 
 export default function Registration() {
   const dispatch = useDispatch();
@@ -12,11 +17,6 @@ export default function Registration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const styles = {
-    form: {
-      width: "200",
-    }
-  };
 
   const handleChange = ({ target: { name, value } }) => {
     switch (name) {
