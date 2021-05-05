@@ -1,11 +1,11 @@
 import React, { useState} from 'react'
 import { Form, Button } from 'react-bootstrap'
-import { connect } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { authOperations } from '../../redux/auth';
 
 
-
 export default function Login() {
+  const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -24,6 +24,10 @@ export default function Login() {
   
   const handleSubmit = e => {
     e.preventDefault();
+
+    dispatch(authOperations.login({ email, password }));
+    setEmail("");
+    setPassword("");
   };
   
   return (

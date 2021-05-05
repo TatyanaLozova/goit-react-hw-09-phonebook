@@ -42,7 +42,7 @@ export default function ContactForm() {
       dispatch(contactsOperations.addContact({ name, number }));
       resetForm();
     },
-    [dispatch, name, number],
+    [contacts, dispatch, name, number],
   );
 
   // очищает форму после отправки

@@ -30,6 +30,7 @@ export default function Registration() {
         setPassword(value);
         break;
       default:
+       
         // eslint-disable-next-line no-template-curly-in-string
         console.warn("Тип поля name - ${name} не обрабатывается");
     }

@@ -3,15 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { authOperations, authSelectors } from "../../redux/auth";
 import ava from '../../images/ava.jpg'
 
-// const mapStateToProps = (state) => ({
-//   name: authSelectors.getUserName(state),
-//   avatar: ava,
-// });
-// const mapDispatchToProps = {
-//  onLogout: authOperations.logout,
-// };
-
-
 const styles = {
 avatar: {
       borderRadius: "50%",
