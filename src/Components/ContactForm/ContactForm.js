@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { contactsOperations, contactsSelectors } from "../../redux/contacts";
+// import { contactsOperations, contactsSelectors } from "../../redux/contacts";
 import s from './ContactForm.module.css'
 
   
@@ -21,11 +21,11 @@ import s from './ContactForm.module.css'
         default:
           console.error("Ooops");
       }
-    }, []);
+    };
      // отправляет данные 
-  handleSubmit = (ev) => {
-    ev.preventDefault();
-    
+    const handleSubmit = (ev) => {
+      ev.preventDefault();
+    };
      
     return (
       <form className={s.form} onSubmit={handleSubmit}>
@@ -134,4 +134,3 @@ import s from './ContactForm.module.css'
 //   onSubmit: (contact) => dispatch(contactsOperations.addContacts(contact)),
 // });
     
-// export default connect(mapStateToProps,mapDispatchToProps) (ContactForm);

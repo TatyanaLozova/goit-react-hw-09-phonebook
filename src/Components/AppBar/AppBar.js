@@ -14,7 +14,8 @@ const style = {
         minHeight: 60,
         backgroundColor: "rgb(40, 215, 238, 0.384)",
         borderBottom: "1px solid",
-         width: "100%",
+        width: "100%",
+        boxShadow: "1px 15px 22px 21px rgba(34, 60, 80, 0.2)",
 
 
     },
