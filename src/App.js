@@ -4,15 +4,12 @@ import './App.css';
 import AppBar from "./Components/AppBar/AppBar";
 import { PrivateRoute } from './Components/PrivateRoute';
 import { PublicRoute } from './Components/PublicRoute';
-// import HomeView from "./views/HomeView";
-// import RegistrationView from "./views/RegistrationView";
-// import LoginView from "./views/LoginView";
-// import ContactsView from "./views/ContactsView";
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {authOperations} from "./redux/auth";
 import { useDispatch } from "react-redux";
 // import routes from "./routes";
+import {Container} from './Components/Container';
 
 
 
@@ -43,7 +40,8 @@ export default function App() {
   
     return (
     <div className="App">
-      <AppBar />
+        <AppBar />
+        <Container>
       <Suspense fallback={<p>Loading</p>}>
       <Switch>
             <PublicRoute
@@ -68,7 +66,8 @@ export default function App() {
             <LoginView />
             </PublicRoute>
           </Switch>
-        </Suspense>
+          </Suspense>
+          </Container>
     </div>
     )
   };

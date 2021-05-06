@@ -50,7 +50,8 @@ export default function Registration() {
   };
 
   return (
-    <Form style={styles.form} onSubmit={handleSubmit}>
+    <div style={styles.form} >
+    <Form onSubmit={handleSubmit}>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>UserName</Form.Label>
         <Form.Control
@@ -88,7 +89,7 @@ export default function Registration() {
         Submit
   </Button>
     </Form>
-
+</div>
   );
 }
 

@@ -12,7 +12,7 @@ import {authSelectors} from '../../redux/auth'
         alignItems: "center",
         minHeight: 60,
         backgroundColor: "rgb(40, 215, 238, 0.384)",
-        borderBottom: "1px solid",
+        borderBottom: "none",
         width: "100%",
         boxShadow: "1px 15px 22px 21px rgba(34, 60, 80, 0.2)",
     },

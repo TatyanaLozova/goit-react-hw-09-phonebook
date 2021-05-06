@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useCallback} from 'react'
 import { useSelector,useDispatch} from 'react-redux'
 import PropTypes from 'prop-types';
 import s from '../ContactForm/ContactForm.module.css'
@@ -8,10 +8,10 @@ import { filterContacts, contactsSelectors } from '../../redux/contacts';
 export default function Filter() {
   const dispatch = useDispatch();
   const filterValue = useSelector(contactsSelectors.filter);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const onChangeFilter = useCallback((ev) => dispatch(filterContacts(ev.target.value))
 
-  const  onChangeFilter = ev => dispatch(filterContacts(ev.target.value))
-
-
+  );
 
   return (
     <label className={s.label}>
@@ -24,6 +24,7 @@ export default function Filter() {
     </label>
   );
 }
+
 
 Filter.propTypes = {
   filterValue: PropTypes.string.isRequired,

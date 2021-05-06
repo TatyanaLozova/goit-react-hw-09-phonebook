@@ -8,12 +8,12 @@ const style = {
   link: {
     display: "inline-block",
     textDecoration: "none",
-    padding: 12,
+    padding: 20,
     fontWeight: 900,
     color: "#ffffff",
   },
   activeLink: {
-      color: "red",
+      color: "rgb(58, 18, 236)",
   },
 };
 

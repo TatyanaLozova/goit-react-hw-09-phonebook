@@ -11,7 +11,7 @@ const style = {
     color: "#ffffff",
   },
   activeLink: {
-     color: "red",
+     color: "rgb(58, 18, 236)",
   },
 };
 
