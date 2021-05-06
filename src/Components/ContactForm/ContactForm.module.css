@@ -27,12 +27,9 @@
   width: 200px;
   padding: 10px;
   font-weight: 700;
-  border-color: rgb(140, 194, 238);
+  border-color: rgba(204, 125, 72, 0.623);
   color: #ffff;
-}
-
-.btnAdd:hover {
-  background-color: rgb(241, 68, 68);
+  background-color: rgb(209, 145, 201);
 }
 
 .label {

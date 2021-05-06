@@ -1,0 +1,50 @@
+/* AppBar --------------------*/
+    .blok {
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       min-height: 60px;
+       background-color: rgba(209, 145, 201, 0.664);
+       border-bottom: none;
+       width: 100%;
+       box-shadow: -1px 10px 18px 6px rgba(209, 145, 201, 0.664);
+             
+    }
+  
+    
+  /* Navigation------------------- */
+  .link {
+    display: inline-block;
+   text-decoration: none;
+    padding: 20px;
+   font-weight: bold;
+    color: #ffffff;
+
+    }
+    
+    .link:hover {
+        color: rgb(4, 40, 241);
+    }
+  .link:active{
+      color: rgb(4, 40, 241);
+  
+}
+
+/* AuthNav ----------------------------*/
+
+.form {
+    display: blok;
+text-decoration: none;
+padding: 20px;
+font-weight: bold;
+color: #ffffff;
+}
+.form:active {
+color: rgb(4, 40, 241);
+
+}
+  .form:hover {
+  color: rgb(4, 40, 241);
+ 
+
+}

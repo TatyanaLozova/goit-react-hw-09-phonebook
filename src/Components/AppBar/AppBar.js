@@ -4,26 +4,12 @@ import AuthNav from '../AuthNav';
 import UserMenu from '../UserMenu';
 import { useSelector} from 'react-redux'
 import {authSelectors} from '../../redux/auth'
-
- const style = {
-    blok: {
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        minHeight: 60,
-        backgroundColor: "rgb(40, 215, 238, 0.384)",
-        borderBottom: "none",
-        width: "100%",
-        boxShadow: "1px 15px 22px 21px rgba(34, 60, 80, 0.2)",
-    },
-};
-
-
-
+import s from '../Navigation/Navigation.module.css'
+ 
 export default function AppBar() {
     const isLoggedIn= useSelector(authSelectors.getIsAuthenticated)
     return (
-    <header  style={style.blok}>
+    <header  className={s.blok}>
         <Navigation />
        {isLoggedIn ? <UserMenu /> : <AuthNav />}
    </header>

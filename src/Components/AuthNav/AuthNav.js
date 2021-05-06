@@ -1,19 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import routes from '../../routes'
+import s from '../Navigation/Navigation.module.css'
 
-const style = {
-  form: {
-    display: "blok",
-    textDecoration: "none",
-    padding: 12,
-    fontWeight: 700,
-    color: "#ffffff",
-  },
-  activeLink: {
-     color: "rgb(58, 18, 236)",
-  },
-};
 
 
 const AuthNav = () => {
@@ -22,17 +11,15 @@ const AuthNav = () => {
             <NavLink
                 to={routes.registration}
                 exact
-                style={style.form}
-                activeStyle={style.activeLink}
-            >
+               className={s.form}
+                            >
                 REGISTRATION
                 </NavLink>
             <NavLink
                 to={routes.login}
                 exact
-                 style={style.form}
-                activeStyle={style.activeLink}
-            >
+                 className={s.form}
+                            >
                 LOGIN
             </NavLink>
             

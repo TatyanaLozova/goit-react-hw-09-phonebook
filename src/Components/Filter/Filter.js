@@ -1,13 +1,13 @@
 import React, {useCallback} from 'react'
-import { useSelector,useDispatch} from 'react-redux'
-import PropTypes from 'prop-types';
-import s from '../ContactForm/ContactForm.module.css'
-import { filterContacts, contactsSelectors } from '../../redux/contacts';
+import { useSelector, useDispatch } from 'react-redux'
 
+import s from '../ContactForm/ContactForm.module.css'
+import { filterContacts } from '../../redux/contacts';
+import  {contactsSelectors}  from '../../redux/contacts';
 
 export default function Filter() {
   const dispatch = useDispatch();
-  const filterValue = useSelector(contactsSelectors.filter);
+  const filterValue = useSelector(contactsSelectors.getFilter);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const onChangeFilter = useCallback((ev) => dispatch(filterContacts(ev.target.value))
 
@@ -26,10 +26,6 @@ export default function Filter() {
 }
 
 
-Filter.propTypes = {
-  filterValue: PropTypes.string.isRequired,
-  onChangeFilter: PropTypes.func.isRequired,
-};
 
 
 
