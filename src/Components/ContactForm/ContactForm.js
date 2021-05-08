@@ -39,10 +39,11 @@ export default function ContactForm() {
         return;
       }
 
-      dispatch(contactsOperations.addContact({ name, number }));
+      dispatch(contactsOperations.addContacts({ name, number }));
       resetForm();
     },
-    [contacts, dispatch, name, number],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [dispatch, name, number],
   );
 
   // очищает форму после отправки
