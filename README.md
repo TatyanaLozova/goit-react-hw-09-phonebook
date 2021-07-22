@@ -39,39 +39,3 @@ future.
 :heart:[Olya](https://github.com/Olga-Smolianinova)    
 :heart:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
 :heart:Nastya    
-
-"@material-ui/core": "^4.11.4",
-"@material-ui/icons": "^4.11.2",
-"@material-ui/lab": "^4.0.0-alpha.60",
-
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-
-    "chart.js": "^3.4.0",
-    "date-fns": "^2.22.1",
-    "dayjs": "^1.10.6",
-
-
-
-
-    "react-chartjs-2": "^3.0.3",
-    "react-datepicker": "^4.1.1",
-
-    "react-input-mask": "^2.0.4",
-
-
-
-
-
-    "react-select": "^4.3.1",
-    "react-switch": "^6.0.0",
-
-
-
-    "sass": "^1.35.1",
-
-    "web-vitals": "^1.1.2",
-
-
-# goit-react-hw-09-phonebook
