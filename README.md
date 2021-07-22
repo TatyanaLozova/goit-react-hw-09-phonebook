@@ -1,6 +1,6 @@
 # Project Wallet
 
-!(https://github.com/TatyanaLozova/goit-react-hw-09-phonebook/blob/main/src/images/wallet.png?raw=true)
+![Wallet](https://github.com/TatyanaLozova/goit-react-hw-09-phonebook/blob/main/src/images/wallet.png?raw=true)
 
 
 ## What is Wallet
