@@ -5,7 +5,7 @@
 
 ## What is Wallet
 
-Wallet is a program for recording income, expenses and budget tracking. Control
+Wallet is a online program for recording income, expenses and budget tracking. Control
 of finances, which will allow you to make the right decisions and plan your
 future.
 
