@@ -1,5 +1,8 @@
 # Project Wallet
 
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)]
+
+
 ## What is Wallet
 
 Wallet is a program for recording income, expenses and budget tracking. Control
