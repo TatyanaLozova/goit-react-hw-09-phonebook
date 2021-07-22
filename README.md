@@ -30,14 +30,12 @@ future.
 
 ### `"Boomerang" team`
 
-:heart:    
- [Ruslan](https://github.com/RuslanZahriadskyi) - teamlead
-:heart:
-     [Nika](https://github.com/nikule4ka) - scrum master
-* [Dima](https://github.com/DimRom76)
-* [Olya](https://github.com/Olga-Smolianinova)
-* [Tanya](https://github.com/TatyanaLozova?tab=repositories)
-* [Nastya]
+:heart:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead
+:heart:[Nika](https://github.com/nikule4ka) - scrum master
+:heart:[Dima](https://github.com/DimRom76)
+:heart:[Olya](https://github.com/Olga-Smolianinova)
+:heart:[Tanya](https://github.com/TatyanaLozova?tab=repositories)
+:heart:Nastya
 
 "@material-ui/core": "^4.11.4",
 "@material-ui/icons": "^4.11.2",
