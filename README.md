@@ -1,6 +1,7 @@
 # Project Wallet
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)]
+[![N|Solid](https://github.com/TatyanaLozova/goit-react-hw-09-phonebook/blob/main/src/images/wallet.png?raw=true
+)]
 
 
 ## What is Wallet
