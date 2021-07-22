@@ -30,8 +30,10 @@ future.
 
 ### `"Boomerang" team`
 
-* [Ruslan](https://github.com/RuslanZahriadskyi) - teamlead
-* [Nika](https://github.com/nikule4ka) - scrum master
+:heart:    
+ [Ruslan](https://github.com/RuslanZahriadskyi) - teamlead
+:heart:
+     [Nika](https://github.com/nikule4ka) - scrum master
 * [Dima](https://github.com/DimRom76)
 * [Olya](https://github.com/Olga-Smolianinova)
 * [Tanya](https://github.com/TatyanaLozova?tab=repositories)
