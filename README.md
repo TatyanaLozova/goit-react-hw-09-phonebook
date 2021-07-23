@@ -12,12 +12,11 @@ future.
 ## Implemented functionality:
 
 - User registration / login.
-- When registering, the user must receive confirmation of the authenticity of the e-mail - by verifying the digital signature of the letter using the sender's public key.
-- Pop-up notifications about successful or unsuccessful operation using the react-toastify package
-  general statistics of the user's income and expenses.
-- Validation through formic and yap
+- When the user register, he must receive confirmation of the authenticity e-mail - by verifying the digital signature of the letter using the sender's public key.
+- Pop-up notifications about successful or unsuccessful operations using the package "react-toastify" for general statistics of the user's income and expenses.
+- The validation implemented by the library "Formik" and "Yap"
 - Adding an avatar.
-- The total balance of all funds in the user's account, which is updated immediately when adding transactions
+- The total balance of all amounts in the user's account is updated when adding transactions
 - Exchange rate via [api privat bank](https://api.privatbank.ua/#p24/exchange
 ).
 - A mobile version has been implemented on which there are three pages, with the permission of the tablet, 2 pages have been implemented on which general information about operations and statistics are displayed where all operations, as well as expenses and incomes are shown in colors.
@@ -38,17 +37,11 @@ future.
  [React-loader-spinner](https://www.npmjs.com/package/react-loader-spinner),
  [React-media](https://www.npmjs.com/package/react-media),
  [React-toastify](https://www.npmjs.com/package/react-toastify),
- [Redux](https://redux.js.org),
- [Redux-persist](https://www.npmjs.com/package/redux-persist),
- [Reselect](https://www.npmjs.com/package/reselect),
- [Axios](https://www.npmjs.com/package/axios),
  [Formik](https://formik.org/docs/overview),
  [Uuid](https://www.npmjs.com/package/uuid),
  [Yup](https://www.npmjs.com/package/yup),
- [modern-normalize](https://www.npmjs.com/package/modern-normalize),
  [node-sass](https://www.npmjs.com/package/node-sass),
- [React](https://ru.reactjs.org),
- [React](https://ru.reactjs.org)
+
 
 ## "Boomerang" team
 
