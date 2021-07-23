@@ -45,9 +45,9 @@ future.
 
 ## "Boomerang" team
 
-:boomerang:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead    
-:boomerang:[Nika](https://github.com/nikule4ka) - scrum master    
-:boomerang:[Dima](https://github.com/DimRom76)    
-:boomerang:[Olya](https://github.com/Olga-Smolianinova)    
-:boomerang:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
-:boomerang:[Nastya](https://github.com/dAnastasiia)    
+:heart:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead    
+:heart:[Nika](https://github.com/nikule4ka) - scrum master    
+:heart:[Dima](https://github.com/DimRom76)    
+:heart:[Olya](https://github.com/Olga-Smolianinova)    
+:heart:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
+:heart:[Nastya](https://github.com/dAnastasiia)    
