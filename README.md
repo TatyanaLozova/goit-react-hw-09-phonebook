@@ -40,14 +40,14 @@ future.
  [Formik](https://formik.org/docs/overview),
  [Uuid](https://www.npmjs.com/package/uuid),
  [Yup](https://www.npmjs.com/package/yup),
- [node-sass](https://www.npmjs.com/package/node-sass),
+ [node-sass](https://www.npmjs.com/package/node-sass)
 
 
 ## "Boomerang" team
 
-:heart:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead    
-:heart:[Nika](https://github.com/nikule4ka) - scrum master    
-:heart:[Dima](https://github.com/DimRom76)    
-:heart:[Olya](https://github.com/Olga-Smolianinova)    
-:heart:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
-:heart:[Nastya](https://github.com/dAnastasiia)    
+:boomerang:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead    
+:boomerang:[Nika](https://github.com/nikule4ka) - scrum master    
+:boomerang:[Dima](https://github.com/DimRom76)    
+:boomerang:[Olya](https://github.com/Olga-Smolianinova)    
+:boomerang:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
+:boomerang:[Nastya](https://github.com/dAnastasiia)    
