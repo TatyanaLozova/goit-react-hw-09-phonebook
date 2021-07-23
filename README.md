@@ -11,25 +11,20 @@ future.
 
 ## Implemented functionality:
 
-реализованный функционал:
-
-- Регистрация/логинизация пользователя.
-- При регистрации, пользователь должен получить подтверждение подлинности электронной почты - путём проверки цифровой подписи письма по открытому ключу отправителя.
-- Всплывающие уведомления об успешной или не успешной операции с помощью пакета react-toastify
-  общая статистика доходов и расходов пользователя.
-- Валидация через формик и яп
-- Добавление аватара.
-- Общий баланс всех средств на счету у пользователя, который обновляется сразу же при добавлении операций
-- Обменный курс через апи приват банка.
-- Реализована мобильная версия на которой есть три страницы, с разрешения планшета реализовано 2 страницы на которых выводится общая информация об операциях и статистика где в цветах показаны все операции а так же расходы и доходы.
-- С помощью раутов реализован рендер на главной странице, который отрисовывает компоненты
-- Создан собственный [бекенд](https://own-wallet.herokuapp.com/api-docs/#/) на котором работает сайт и все операции
-- Адаптивная верстка с тремя перерывами (мобильный, планшет, десктоп).
-- Реализовано модальное окно по клику на кнопку , в котором высвечивает добавление доходов или расходов пользователя. Пользователь может добавить операции по своим доходам и расходам, выбрать число, категорию, а также написать сумму операции, что будет выведено на панель статистики и панель операций
-- Front End версия развернута на Netlify, Back End - на Heroku.
-
-
-https://own-wallet.herokuapp.com/api-docs/#/
+- User registration / login.
+- When registering, the user must receive confirmation of the authenticity of the e-mail - by verifying the digital signature of the letter using the sender's public key.
+- Pop-up notifications about successful or unsuccessful operation using the react-toastify package
+  general statistics of the user's income and expenses.
+- Validation through formic and yap
+- Adding an avatar.
+- The total balance of all funds in the user's account, which is updated immediately when adding transactions
+- Exchange rate via api privat bank.
+- A mobile version has been implemented on which there are three pages, with the permission of the tablet, 2 pages have been implemented on which general information about operations and statistics are displayed where all operations, as well as expenses and incomes are shown in colors.
+- With the help of routs, a render on the main page is implemented, which renders components
+- Created its own [backend] (https://own-wallet.herokuapp.com/api-docs/#/) on which the site and all operations are running
+- Adaptive layout with three breaks (mobile, tablet, desktop).
+- Implemented a modal window by clicking on the button, in which the addition of income or expenses of the user is highlighted. The user can add operations on his income and expenses, select a number, category, and also write the amount of the operation, which will be displayed on the statistics panel and the operations panel
+- Front End version deployed on Netlify, Back End - on Heroku.
 
 
 ## Technologies used
@@ -54,11 +49,11 @@ https://own-wallet.herokuapp.com/api-docs/#/
  [React](https://ru.reactjs.org),
  [React](https://ru.reactjs.org)
 
-### `"Boomerang" team`
+## "Boomerang" team
 
 :heart:[Ruslan](https://github.com/RuslanZahriadskyi) - teamlead    
 :heart:[Nika](https://github.com/nikule4ka) - scrum master    
 :heart:[Dima](https://github.com/DimRom76)    
 :heart:[Olya](https://github.com/Olga-Smolianinova)    
 :heart:[Tanya](https://github.com/TatyanaLozova?tab=repositories)    
-:heart:Nastya    
+:heart:[Nastya](https://github.com/dAnastasiia)    
