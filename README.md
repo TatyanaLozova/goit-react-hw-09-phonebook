@@ -18,7 +18,8 @@ future.
 - Validation through formic and yap
 - Adding an avatar.
 - The total balance of all funds in the user's account, which is updated immediately when adding transactions
-- Exchange rate via api privat bank.
+- Exchange rate via [api privat bank](https://api.privatbank.ua/#p24/exchange
+).
 - A mobile version has been implemented on which there are three pages, with the permission of the tablet, 2 pages have been implemented on which general information about operations and statistics are displayed where all operations, as well as expenses and incomes are shown in colors.
 - With the help of routs, a render on the main page is implemented, which renders components
 - Created its own [backend](https://own-wallet.herokuapp.com/api-docs/#/) on which the site and all operations are running
