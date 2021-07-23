@@ -21,7 +21,7 @@ future.
 - Exchange rate via api privat bank.
 - A mobile version has been implemented on which there are three pages, with the permission of the tablet, 2 pages have been implemented on which general information about operations and statistics are displayed where all operations, as well as expenses and incomes are shown in colors.
 - With the help of routs, a render on the main page is implemented, which renders components
-- Created its own [backend] (https://own-wallet.herokuapp.com/api-docs/#/) on which the site and all operations are running
+- Created its own [backend](https://own-wallet.herokuapp.com/api-docs/#/) on which the site and all operations are running
 - Adaptive layout with three breaks (mobile, tablet, desktop).
 - Implemented a modal window by clicking on the button, in which the addition of income or expenses of the user is highlighted. The user can add operations on his income and expenses, select a number, category, and also write the amount of the operation, which will be displayed on the statistics panel and the operations panel
 - Front End version deployed on Netlify, Back End - on Heroku.
